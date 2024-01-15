@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Rubik;
+  src: url(Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: Mont;
+  src: url(Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Rulight;
+    src: url(Rubik-Light.ttf);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(markus-spiske-iar-afB0QQw-unsplash.jpg);
+  background-size: cover;
+}
+main #box {
+  background-color: hsl(193, 15%, 44%);
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 10px;
+}
+main #box h1 {
+  padding: 20px;
+  font-family: Rubik;
+  text-align: center;
+  color: hsl(120, 23%, 90%);
+}
+main #box #number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: Mont;
+  padding: 0;
+  margin: 0;
+  margin-top: 70px;
+  color: hsl(120, 31%, 20%);
+}
+main #box #btn {
+ position: relative;
+ top: 10em;
+ border: 10px;
+ padding: 15px 30px;
+ border-top-left-radius: 3em;
+ border-top-right-radius: 3em;
+ border-bottom-left-radius: 3em;
+ border-bottom-right-radius: 3em;
+ cursor: pointer;
+ border-color: black;
+ font-size: 16px;
+ font-family: Rubik;
+}
+main #box #btn:hover{
+ background-color: rgb(70, 54, 155);
+ transition: 0.2s;
+ color: white;
+}
+
